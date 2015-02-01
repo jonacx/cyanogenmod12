@@ -1,4 +1,4 @@
-cmd_scripts/kconfig/lxdialog/yesno.o := ccache gcc -Wp,-MD,scripts/kconfig/lxdialog/.yesno.o.d -Wall -Wmissing-prototypes -Wstrict-prototypes -O2 -fomit-frame-pointer   -DCURSES_LOC="<ncurses.h>" -DLOCALE   -c -o scripts/kconfig/lxdialog/yesno.o scripts/kconfig/lxdialog/yesno.c
+cmd_scripts/kconfig/lxdialog/yesno.o := ccache gcc -Wp,-MD,scripts/kconfig/lxdialog/.yesno.o.d -Wall -Wmissing-prototypes -Wstrict-prototypes -O3 -fomit-frame-pointer   -DCURSES_LOC="<ncurses.h>" -DLOCALE   -c -o scripts/kconfig/lxdialog/yesno.o scripts/kconfig/lxdialog/yesno.c
 
 source_scripts/kconfig/lxdialog/yesno.o := scripts/kconfig/lxdialog/yesno.c
 

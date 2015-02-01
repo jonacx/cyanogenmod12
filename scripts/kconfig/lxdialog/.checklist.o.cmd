@@ -1,4 +1,4 @@
-cmd_scripts/kconfig/lxdialog/checklist.o := ccache gcc -Wp,-MD,scripts/kconfig/lxdialog/.checklist.o.d -Wall -Wmissing-prototypes -Wstrict-prototypes -O2 -fomit-frame-pointer   -DCURSES_LOC="<ncurses.h>" -DLOCALE   -c -o scripts/kconfig/lxdialog/checklist.o scripts/kconfig/lxdialog/checklist.c
+cmd_scripts/kconfig/lxdialog/checklist.o := ccache gcc -Wp,-MD,scripts/kconfig/lxdialog/.checklist.o.d -Wall -Wmissing-prototypes -Wstrict-prototypes -O3 -fomit-frame-pointer   -DCURSES_LOC="<ncurses.h>" -DLOCALE   -c -o scripts/kconfig/lxdialog/checklist.o scripts/kconfig/lxdialog/checklist.c
 
 source_scripts/kconfig/lxdialog/checklist.o := scripts/kconfig/lxdialog/checklist.c
 
